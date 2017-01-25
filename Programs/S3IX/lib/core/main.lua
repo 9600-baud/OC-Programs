@@ -1,8 +1,6 @@
 -- main.lua - S3IX kernel core
 
 function _main()
-	local services = {}
-
-	
-
+	-- Fire up the service service:
+	k_require('lib/serviced'):new()
 end
